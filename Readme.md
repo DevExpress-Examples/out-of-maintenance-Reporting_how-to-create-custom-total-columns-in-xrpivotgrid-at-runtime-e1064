@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/PivotWithCustomColumnsAtRuntime/Form1.cs) (VB: [Form1.vb](./VB/PivotWithCustomColumnsAtRuntime/Form1.vb))
+<!-- default file list end -->
 # How to create custom total columns in xrPivotGrid at runtime
 
 
