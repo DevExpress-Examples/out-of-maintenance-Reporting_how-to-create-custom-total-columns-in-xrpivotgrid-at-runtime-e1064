@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/PivotWithCustomColumnsAtRuntime/Form1.cs) (VB: [Form1.vb](./VB/PivotWithCustomColumnsAtRuntime/Form1.vb))
+* [Program.cs](./CS/PivotWithCustomColumnsAtRuntime/Program.cs) (VB: [Program.vb](./VB/PivotWithCustomColumnsAtRuntime/Program.vb))
+* [XtraReport1.cs](./CS/PivotWithCustomColumnsAtRuntime/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/PivotWithCustomColumnsAtRuntime/XtraReport1.vb))
+<!-- default file list end -->
 # How to create custom total columns in xrPivotGrid at runtime
 
 
