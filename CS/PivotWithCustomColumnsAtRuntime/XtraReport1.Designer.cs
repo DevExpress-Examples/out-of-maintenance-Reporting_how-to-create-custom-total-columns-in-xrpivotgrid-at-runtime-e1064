@@ -31,6 +31,8 @@ namespace PivotWithCustomColumnsAtRuntime
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
             this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
             this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
+            this.topMarginBand1 = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.bottomMarginBand1 = new DevExpress.XtraReports.UI.BottomMarginBand();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // Detail
@@ -41,26 +43,36 @@ namespace PivotWithCustomColumnsAtRuntime
             // 
             // PageHeader
             // 
-            this.PageHeader.Height = 30;
+            this.PageHeader.HeightF = 30F;
             this.PageHeader.Name = "PageHeader";
             this.PageHeader.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.PageHeader.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             // 
             // PageFooter
             // 
-            this.PageFooter.Height = 30;
+            this.PageFooter.HeightF = 30F;
             this.PageFooter.Name = "PageFooter";
             this.PageFooter.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.PageFooter.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // topMarginBand1
+            // 
+            this.topMarginBand1.Name = "topMarginBand1";
+            // 
+            // bottomMarginBand1
+            // 
+            this.bottomMarginBand1.Name = "bottomMarginBand1";
             // 
             // XtraReport1
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
             this.Detail,
             this.PageHeader,
-            this.PageFooter});
+            this.PageFooter,
+            this.topMarginBand1,
+            this.bottomMarginBand1});
             this.Margins = new System.Drawing.Printing.Margins(60, 60, 100, 100);
-            this.Version = "8.1";
+            this.Version = "19.2";
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -70,5 +82,7 @@ namespace PivotWithCustomColumnsAtRuntime
         private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
         private DevExpress.XtraReports.UI.PageFooterBand PageFooter;
         public DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.TopMarginBand topMarginBand1;
+        private DevExpress.XtraReports.UI.BottomMarginBand bottomMarginBand1;
     }
 }
